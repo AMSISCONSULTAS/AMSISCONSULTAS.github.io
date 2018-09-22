@@ -52,7 +52,7 @@ header{
 nav{
 width: 1000px;
 height: 50px;
-background: #92a8d1;
+background: #85DEFF;
 border-radius: 10px;
 
 }
@@ -75,7 +75,7 @@ li{
 
 section{
 	width: 700px;
-	background: DarkSeaGreen;
+	background: #DCE3F9;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
