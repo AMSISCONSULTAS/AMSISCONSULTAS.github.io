@@ -21,7 +21,7 @@ background-size: cover;
 
 h1{
 font-family: 'Orbitron', cursive;
-color: white;
+color: black;
 margin-left: 10px;
 font-size: 60px;
 text-align: center; 
@@ -29,7 +29,7 @@ text-align: center;
 
 h2{
 font-family: 'Yellowtail', cursive;
-color: white;
+color: black;
 margin-left: 10px;
 font-size: 20px;
 text-align: left; 
@@ -37,7 +37,7 @@ text-align: left;
 
 h3{
 font-family: 'Orbitron', cursive;;
-color: white;
+color: black;
 font-size: 30px;
 text-align: center; 
 }
