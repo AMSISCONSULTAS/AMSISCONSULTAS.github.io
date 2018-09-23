@@ -41,6 +41,8 @@ CREATE TABLE `prueba` (
 --
 ALTER TABLE `prueba`
   ADD UNIQUE KEY `usuario` (`usuario`(3));
+  
+INSERT INTO `prueba` (`usuario`, `contrasena`, `tipo-usuario`) VALUES ('admin', 'amsis', 'admin');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
