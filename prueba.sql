@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `prueba` (
   `usuario` text NOT NULL,
-  `contrasena` text NOT NULL,
+  `clave` text NOT NULL,
   `tipo-usuario` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -42,7 +42,7 @@ CREATE TABLE `prueba` (
 ALTER TABLE `prueba`
   ADD UNIQUE KEY `usuario` (`usuario`(3));
   
-INSERT INTO `prueba` (`usuario`, `contrasena`, `tipo-usuario`) VALUES ('admin', 'amsis', 'admin');
+INSERT INTO `prueba` (`usuario`, `clave`, `tipo-usuario`) VALUES ('admin', 'amsis', 'admin');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
