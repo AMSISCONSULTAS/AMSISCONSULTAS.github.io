@@ -2,7 +2,7 @@
 $usuario=$_POST['usuario'];
 $clave=$_POST['clave'];
 
-$conexion=mysqli_connect("amsisconsultas.github.io","root","","AMSIS_consultas");
+$conexion=mysqli_connect("localhost","root","","amsis_consultas");
 $consulta="SELECT * FROM prueba WHERE usuario='$usuario' and clave='$clave'";
 $resultado=mysqli_query($conexion,$consulta);
 
