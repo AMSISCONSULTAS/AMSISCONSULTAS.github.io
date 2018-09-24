@@ -17,9 +17,15 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `amsis consultas`
+-- Base de datos: `amsis_consultas`
 --
+CREATE DATABASE IF NOT EXISTS amsis_consultas;
 
+-- ==========================================================
+-- Seleccionar la Base de Datos
+-- ==========================================================
+
+   USE amsis_consultas;
 -- --------------------------------------------------------
 
 --
